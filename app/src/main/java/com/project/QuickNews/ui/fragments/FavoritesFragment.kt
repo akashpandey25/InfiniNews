@@ -15,10 +15,11 @@ import com.project.QuickNews.databinding.FragmentFavoritesBinding
 import com.project.QuickNews.ui.MainActivity
 import com.project.QuickNews.ui.NewsViewModel
 
+
 class FavoritesFragment : Fragment(R.layout.fragment_favorites) {
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
-    lateinit var binding:FragmentFavoritesBinding
+    lateinit var binding: FragmentFavoritesBinding
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

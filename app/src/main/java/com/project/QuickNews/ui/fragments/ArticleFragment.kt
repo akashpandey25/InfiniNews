@@ -13,6 +13,7 @@ import com.project.QuickNews.databinding.FragmentArticleBinding
 import com.project.QuickNews.ui.MainActivity
 import com.project.QuickNews.ui.NewsViewModel
 
+
 class ArticleFragment : Fragment(R.layout.fragment_article) {
     lateinit var newsViewModel: NewsViewModel
     val args:ArticleFragmentArgs by navArgs()

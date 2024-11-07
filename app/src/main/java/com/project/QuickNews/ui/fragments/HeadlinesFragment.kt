@@ -23,6 +23,7 @@ import com.project.QuickNews.ui.NewsViewModel
 import com.project.QuickNews.utils.Contents
 import com.project.QuickNews.utils.Resource
 
+
 class HeadlinesFragment : Fragment(R.layout.fragment_headlines) {
     lateinit var newsViewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter

@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide
 import com.project.QuickNews.R
 import com.project.QuickNews.model.Article
 
+
 class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
 
     inner class ArticleViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

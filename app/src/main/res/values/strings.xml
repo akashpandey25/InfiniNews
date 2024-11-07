@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InfiniNews</string>
+    <string name="app_name">QuickNews</string>
     <string name="headlines">Headlines</string>
     <string name="favorites">Favorites</string>
     <string name="search">Search</string>

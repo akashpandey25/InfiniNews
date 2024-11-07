@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.project.infininews"
+    namespace = "com.project.QuickNews"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.project.infininews"
+        applicationId = "com.project.QuickNews"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

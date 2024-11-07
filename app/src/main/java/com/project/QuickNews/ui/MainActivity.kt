@@ -10,6 +10,7 @@ import com.project.QuickNews.databinding.ActivityMainBinding
 import com.project.QuickNews.db.ArticleDatabase
 import com.project.QuickNews.repository.NewsRepository
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     lateinit var newsViewModel: NewsViewModel
