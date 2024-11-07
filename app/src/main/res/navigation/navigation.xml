@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.project.infininews.ui.fragments.SearchFragment"
+        android:name="com.project.QuickNews.ui.fragments.SearchFragment"
         android:label="SearchFragment" >
         <action
             android:id="@+id/action_searchFragment_to_articleFragment"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.project.infininews.ui.fragments.FavoritesFragment"
+        android:name="com.project.QuickNews.ui.fragments.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" >
         <action
@@ -24,16 +24,16 @@
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
-        android:name="com.project.infininews.ui.fragments.ArticleFragment"
+        android:name="com.project.QuickNews.ui.fragments.ArticleFragment"
         android:label="fragment_article"
         tools:layout="@layout/fragment_article">
         <argument
             android:name="article"
-            app:argType="com.project.infininews.model.Article"/>
+            app:argType="com.project.QuickNews.model.Article"/>
     </fragment>
     <fragment
         android:id="@+id/headlinesFragment"
-        android:name="com.project.infininews.ui.fragments.HeadlinesFragment"
+        android:name="com.project.QuickNews.ui.fragments.HeadlinesFragment"
         android:label="fragment_headlines"
         tools:layout="@layout/fragment_headlines" >
         <action
